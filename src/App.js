@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 
@@ -7,7 +8,8 @@ function App() {
     <>
       <Navbar title="My Website"/>
 
-      <Textform heading="Form convert texts"/>
+      {/* <Textform heading="Form convert texts"/> */}
+      <About/>
     </>
   );
 }
